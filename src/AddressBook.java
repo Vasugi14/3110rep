@@ -19,6 +19,7 @@ public class AddressBook {
 		BuddyInfo b3 = new BuddyInfo("Alice Carter", "483 Henders Cr", "741-852-9630");
 		BuddyInfo b4 = new BuddyInfo("Carson Carter", "483 Henders Cr", "369-025-8147");
 		BuddyInfo b5 = new BuddyInfo("Addison Carter", "483 Henders Cr", "045-632-1798");
+		BuddyInfo b6 = new BuddyInfo("Annabele Carter", "483 Henders Cr", "753-159-8426");
 		
 		
 		addBuddy(buddies, b1);
@@ -27,6 +28,7 @@ public class AddressBook {
 		addBuddy(buddies, b4);
 		addBuddy(buddies, b4);
 		addBuddy(buddies, b5);
+		addBuddy(buddies, b6);
 		
 		removeBuddy(buddies, b4);
 		
