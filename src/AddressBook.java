@@ -27,7 +27,7 @@ public class AddressBook {
 
 		AddressBook book = new AddressBook();
 		BuddyInfo b1 = new BuddyInfo("Ben Carter", "483 Henders Cr", "987-654-3210");
-		BuddyInfo b2 = new BuddyInfo("Alex Carter", "483 Henders Cr", "123-456-7890");
+		BuddyInfo b2 = new BuddyInfo("Alex Carter", "483 Henders Cr", "123-456-7890");	//ADDED NEW PERSON
 		book.addBuddy(b1);
 		book.addBuddy(b2);
 		book.removeBuddy(0);
